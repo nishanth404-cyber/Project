@@ -1,0 +1,9 @@
+2026-03-28 17:21:42,485 - Firewall - INFO - Added rule: ALLOW ALL from 192.168.0.0/24 to ANY
+2026-03-28 17:21:42,486 - Firewall - INFO - Added rule: DENY ALL from ANY to ANY
+2026-03-28 17:21:42,486 - Firewall - INFO - Added rule: ALLOW TCP from ANY to ANY
+2026-03-28 17:21:42,487 - Firewall - INFO - Added rule: ALLOW TCP from ANY to ANY
+2026-03-28 17:21:42,487 - Firewall - INFO - Added rule: ALLOW TCP from ANY to ANY
+2026-03-28 17:21:42,487 - Firewall - INFO - Added rule: LOG ICMP from ANY to ANY
+2026-03-28 17:22:53,389 - Firewall - INFO - Starting firewall system...
+2026-03-28 17:22:53,393 - Firewall - INFO - Firewall system started successfully
+2026-03-28 17:26:28,536 - Firewall - INFO - Firewall system stopped

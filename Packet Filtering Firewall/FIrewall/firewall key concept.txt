@@ -1,0 +1,69 @@
+Key Features:
+
+    Packet Filtering: Rules-based filtering for TCP, UDP, and ICMP protocols
+
+    Intrusion Detection System (IDS): Detects port scans, SYN floods, and ICMP floods
+
+    Stateful Inspection: Tracks active connections
+
+    Logging System: Comprehensive logging with different log levels
+
+    Configuration Management: Save/load rules and blocked IPs
+
+    Interactive CLI: Easy management interface
+
+Core Components:
+1. Rule Engine
+
+    Supports ALLOW, DENY, and LOG actions
+
+    Matches on protocol, source/destination IP, ports, and direction
+
+    Rule prioritization (first match wins)
+
+2. Intrusion Detection
+
+    Port scanning detection
+
+    SYN flood detection
+
+    ICMP flood detection
+
+    Automatic IP blocking for attacks
+
+3. Connection Tracking
+
+    Stateful connection tracking
+
+    Automatic cleanup of stale connections
+
+    Connection-based rules
+
+4. Statistics & Monitoring
+
+    Real-time packet statistics
+
+    Attack detection counters
+
+    Connection tracking statistics
+
+Usage Examples:
+
+bash (or) any python3 Platforme
+
+# Run with root privileges (for packet capture)
+sudo python3 firewall.py
+python3 firewall.py
+python firewall.py
+./firewall.py
+
+# Firewall CLI commands:
+firewall> start          # Start the firewall
+firewall> rules          # List all rules
+firewall> add            # Add new rule
+firewall> block 192.168.1.100  # Block an IP
+firewall> stats          # Show statistics
+firewall> save           # Save configuration
+firewall> stop           # Stop the firewall
+
+
