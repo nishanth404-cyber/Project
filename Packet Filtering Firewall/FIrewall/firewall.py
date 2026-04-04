@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Advanced Firewall System with Intrusion Detection
 Author: Security Implementation
